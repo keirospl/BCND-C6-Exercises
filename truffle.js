@@ -12,5 +12,11 @@ module.exports = {
       network_id: '*',
       gas: 9999999
     }
+  },
+  // Configure your compilers
+  compilers: {
+    solc: {
+      version: "0.4.25",    // Fetch exact version from solc-bin (default: truffle's version)
+    }
   }
 };
